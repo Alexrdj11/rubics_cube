@@ -1,0 +1,6 @@
+# No external dependencies required for basic implementation
+# The project uses only Python standard library
+
+# Optional dependencies for enhanced features:
+# numpy>=1.21.0  # For potential performance optimizations
+# matplotlib>=3.5.0  # For cube visualization (future feature)
