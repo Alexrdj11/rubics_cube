@@ -193,6 +193,9 @@ class RubiksCube:
                 self.B_prime()
             elif move == "B2":
                 self.B2()
+            elif move in ["SOLVE", "WHITE_CROSS", "FIRST_LAYER", "SECOND_LAYER", "TOP_CROSS", "OLL", "PLL"]:
+                # Special cases for visualization - just ignore as they're handled separately
+                pass
             else:
                 print(f"Unknown move: {move}")
 
